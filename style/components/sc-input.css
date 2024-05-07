@@ -1,0 +1,48 @@
+.sc-input-field {
+    position: relative;
+    
+}
+
+.sc-input-field > .sc-input {
+    font-size: calc( var(--sc-font-size-btn) + 4);
+    width: 100%;
+    left: 0;
+    right: 0;
+    color: var(--sc-color-gray);
+    border: none;
+    background: none;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.sc-input-field >.input-label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 14px;
+    color: var(--sc-color-gray);
+}
+
+.sc-input-field > .underline::before,
+.sc-input-field > .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.sc-input-field > .underline::before {
+    background: var(--sc-color-gray-light);
+}
+
+.sc-input-field > .underline::after {
+    background: linear-gradient(to right, #021048 0%, #1E38A3 100%);
+    transform: scaleX(0);
+}
+.sc-input-field > .sc-input:focus ~ .underline::after {
+    transform: scaleX(1);
+}

@@ -1,0 +1,28 @@
+
+
+.sc-button-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc-button-next >.sc-button-big{
+    position: relative;
+    background-color: var(--sc-color-primary-buttons);
+    color: white;
+    font-size: var(--sc-font-size-btn);
+    font-weight: 700;    
+    padding: 7px 0;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: center;
+    line-height: 12px;
+    margin-top: 70px;
+
+}
+.sc-button-next >.sc-button-big:hover{
+    background-color: var(--sc-color-primary-buttons-lighter);
+}

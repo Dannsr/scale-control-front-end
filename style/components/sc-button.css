@@ -1,0 +1,37 @@
+.button-container-2{
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.button-container-3{
+    display: flex;
+    margin-top: -20px;
+}
+
+.button-container {
+    display: flex;
+    margin-top:-38px;
+}
+.sc-button-next >.sc-button{
+    background-color: var(--sc-color-primary-buttons);
+    color: white;
+    font-size: var(--sc-font-size-btn);
+    font-weight: 700;    
+    padding: 7px 37px;
+    max-width: 139px;
+    max-height: 24px;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: center;
+    line-height: 12px;
+    margin-left: 190px;
+    margin-right: 53px;
+    margin-bottom: 30px;
+}
+.sc-button-next >.sc-button:hover{
+    background-color: var(--sc-color-primary-buttons-lighter);
+}

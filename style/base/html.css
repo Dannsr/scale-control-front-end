@@ -1,0 +1,7 @@
+html{
+    background-color: var(--sc-color-gray-lighter);
+    font-family: 'Raleway', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}

@@ -1,0 +1,37 @@
+.sc-registration-page1 >.sc-wrapper >.main-content >.center >.sc-title >.steps{
+    font-family:"Inter";
+    font-weight: 500;
+    font-size: 9px;
+    display: block;
+    margin-bottom: 13px;
+    color: var(--sc-color-gray-light);
+    letter-spacing: 2px;
+    
+}
+
+
+.sc-registration-page1 >.sc-wrapper >.main-content >.center >.sc-title >.main-title {
+    font-weight: 800;
+    color: var(--sc-color-black);
+}
+.sc-registration-page1 >.sc-wrapper >.main-content >.center >.sc-title >.main-title >.up{
+    font-size: 36px;
+    display: block;
+    margin-bottom: 7px;
+}
+.sc-registration-page1 >.sc-wrapper >.main-content >.center >.sc-title >.main-title >.down{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.sc-registration-page1 >.sc-wrapper >.main-content >.center > .sc-radio-buttons >.radio-title{
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 32px;
+    color: var(--sc-color-black-light);
+    position: relative;
+    top: 20px;
+}
+

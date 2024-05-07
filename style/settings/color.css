@@ -1,0 +1,17 @@
+:root{
+    /* PRIMARY */
+    --sc-color-primary: #021048;
+    --sc-color-primary-buttons: #2094fd;
+    --sc-color-primary-buttons-lighter: #3f4fdf;
+    /* SECUNDARY */
+    --sc-color-secundary: #1E38A3;
+    /* DANGER */
+    --sc-color-danger: #FF2222;
+    /* GRAY */
+    --sc-color-gray-lighter: #fafafa;
+    --sc-color-gray-light: #B8B7B7;
+    --sc-color-gray: #767676;
+    /* BLACK */
+    --sc-color-black: #09090a;
+    --sc-color-black-light: #242429;
+}

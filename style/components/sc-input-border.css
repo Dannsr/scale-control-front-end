@@ -1,0 +1,42 @@
+.sc-input-field {
+    position: relative;
+    display: flex;
+}
+
+.sc-input-field > .sc-input {
+    position: absolute;
+    font-size: calc( var(--sc-font-size-btn) + 4);
+    width: 3000px;
+    height: 59px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border: 2px solid var(--sc-color-gray);
+    background: none;
+    outline: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out;
+    padding-left: 50px;
+    padding-top: 6px;
+    color: var(--sc-color-gray-light);
+}
+
+.sc-input:focus {
+    border: 2px solid #1E38A3;
+}
+
+.sc-input::placeholder{
+    color: var(--sc-color-gray);
+    font-family: "Inter";
+    font-weight: 200;
+}
+
+.img-wrapper >.image-mail{
+    position: relative;
+    margin-left: -140px;
+    margin-top: 17px;
+    height: 17px;
+    width: 17px;
+    width: 100%;
+}

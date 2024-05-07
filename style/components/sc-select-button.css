@@ -1,0 +1,88 @@
+.select-container {
+    margin-bottom: 20px;
+}
+
+
+.select-container .sc-select {
+    position: relative;
+}
+
+.select-container select {
+    appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border: none;box-shadow: 0 0 0 2px #ccc;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.select-container select:focus {
+    box-shadow: 0 0 0 2px var(--sc-color-gray);
+}
+
+.select-container >.sc-select >.sc-select-title::before {
+    position: absolute;
+    content: "Graduação";
+    top: -9px;
+    left: 10px;
+    background: white;
+    width: 80px;
+    height: 22px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: var(--sc-color-gray);
+}
+.select-container >.sc-select >.sc-select-title-2::before {
+    position: absolute;
+    content: "Quadro";
+    top: -9px;
+    left: 10px;
+    background: white;
+    width: 55px;
+    height: 22px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: var(--sc-color-gray);
+}
+.select-container .icon{
+    position: relative;
+    font-size: 12px;
+    color: var(--sc-color-gray);
+    left: 325px;
+    top: -55px;
+    pointer-events: none;
+
+}
+.select-container ul {
+    position: absolute;
+    margin-top: 4px;
+    list-style: none;
+    width: 224px;
+    height: 167px;
+    box-shadow: rgba(0,0,0,0.02) 0px 1px 3px 0px,
+    rgba(27,31,35,0.15) 0px 0px 0px 1px;
+    border-bottom: 2px solid #1E49A8;
+    border-radius: 3px;
+    color: #39325A;
+    cursor: pointer;
+}
+.select-container ul li{
+    padding-left: 15px;
+    height: 33px;
+    transition: 0.3s ease;
+}
+.select-container ul li:hover{
+    background: #1E49A8;
+    color: white;
+    border-radius: 2px;
+}
