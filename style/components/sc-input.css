@@ -31,14 +31,17 @@
     width: 100%;
     bottom: -5px;
     left: 0;
-    transition: transform 0.3s ease;
+    transition: all 500ms ease;
     transform-origin: left;
 }
 
 .sc-input-field > .underline::before {
     background: var(--sc-color-gray-light);
 }
-
+.sc-input-field{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 .sc-input-field > .underline::after {
     background: linear-gradient(to right, #021048 0%, #1E38A3 100%);
     transform: scaleX(0);

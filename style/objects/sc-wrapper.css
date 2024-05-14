@@ -1,8 +1,15 @@
+.danger{
+    color: #41f1b6;
+    font-weight: 900;
+}
+
 .sc-wrapper {
     position: relative;
     max-width: var(--sc-main-wrapper);
     margin: 0 auto;
 }
+
+
 .sc-wrapper > .sc-background{
     position: fixed;
     left: 0;
@@ -21,15 +28,28 @@
     z-index: 1;
 }
 .sc-wrapper > .sc-background > .rectangle > .wrapper {
-    display: flex;
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 62px;
 }
-.sc-wrapper > .sc-background > .rectangle > .wrapper > .img-wrapper > .image {
-    width: auto;
-    max-height: var(--sc-logo-size);
- }
+.sc-wrapper > .sc-background > .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    position: relative;
+    top: -660px;
+    right: 15px;
+    z-index: 1;
+}
+.sc-wrapper > .sc-background > .img-wrapper > .img-logo {
+    height: var(--sc-logo-size);
+}
+
+.sc-wrapper > .sc-background > .img-wrapper > h2{
+    font-weight: 800;
+    color: var(--sc-color-gray-lighter);
+}
 
 .sc-wrapper > .sc-background > .polygon {
     position: relative;

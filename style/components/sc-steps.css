@@ -1,0 +1,9 @@
+.steps{
+    font-family:"Inter";
+    font-weight: 500;
+    font-size: 9px;
+    display: block;
+    margin-bottom: 13px;
+    color: var(--sc-color-gray-light);
+    letter-spacing: 2px;   
+}

@@ -1,0 +1,21 @@
+.main-title {
+    font-weight: 800;
+    color: var(--sc-color-black);
+}
+.main-title >.up{
+    font-size: 36px;
+    display: block;
+    margin-bottom: 7px;
+}
+.main-title >.down{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 50px;
+}
+.main-title-h1 {
+    font-weight: 800;
+    color: var(--sc-color-black);
+    font-size: 25px;
+    display: block;
+    margin-bottom: 50px;
+}

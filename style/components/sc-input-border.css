@@ -16,7 +16,7 @@
     outline: none;
     padding-bottom: 5px;
     cursor: pointer;
-    transition: border-color 0.2s ease-in-out;
+    transition: all 300ms ease;
     padding-left: 50px;
     padding-top: 6px;
     color: var(--sc-color-gray-light);

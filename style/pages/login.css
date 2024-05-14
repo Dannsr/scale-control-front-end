@@ -61,7 +61,7 @@
     border: 1px solid var(--sc-color-gray-light);
     width: 100%;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: all 300ms ease;
     text-align: center;
     line-height: 12px;
     display: flex;
@@ -76,7 +76,7 @@
     background-color: white;
 }
 
-.sc-login > .sc-wrapper > .main-content > .center >.img-wrapper >.image-users{
+.img-wrapper >.image-users{
     display: flex;
     position: relative;
     left: 30%;
